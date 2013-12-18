@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.cwat.nades">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="19"/>
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <permission android:name="com.cwat.nades.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.cwat.nades.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.cwat.nades.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/Theme.Sherlock">
+        <activity android:label="Nades!" android:name="com.cwat.nades.Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="Nades!" android:name="com.cwat.nades.MainActivity">
+        </activity>
+        <activity android:configChanges="orientation" android:label="Map" android:name="com.cwat.nades.SherlockMapActivity">
+        </activity>
+        <activity android:label="Create Account" android:name="com.cwat.nades.CreateAccount">
+        </activity>
+        <activity android:label="Add stuff" android:name="com.cwat.nades.AddData">
+        </activity>
+        <activity android:label="Join" android:name="com.cwat.nades.JoinOrSignUp">
+        </activity>
+        <activity android:label="Login" android:name="com.cwat.nades.Login">
+        </activity>
+        <activity android:label="Friends" android:name="com.cwat.nades.FriendsActivity">
+        </activity>
+        <activity android:label="Friend Requests" android:name="com.cwat.nades.Requests">
+        </activity>
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDCnN5661SbMsFRs2rmKC8P4MwrTBifNuk"/>
+
+        <receiver android:name="com.cwat.nades.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.cwat.nades"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.cwat.nades.GCMIntentService"/>
+
+    </application>
+
+</manifest>

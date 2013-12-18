@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/login"
+        android:layout_marginTop="82dp"
+        android:text="Create Account" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="148dp"
+        android:text="Login" />
+
+</RelativeLayout><!-- From: file:/Users/alexthornburg/IdeaProjects/nades-0.2/client/Nades/Nades/src/main/res/layout/login_screen.xml -->

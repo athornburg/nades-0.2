@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <ListView android:id="@+id/listview_weapons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#111"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"
+        android:choiceMode="singleChoice"
+        tools:listitem="@layout/drawer_list"
+        android:layout_above="@+id/weaponName" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/weaponName"
+        android:singleLine="false"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Store"
+        android:textAlignment="center"
+        android:id="@+id/weaponDesc"
+        android:singleLine="false"
+        android:maxLines="4"
+        android:layout_below="@+id/weaponName"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="@dimen/abs__search_view_preferred_width"
+        android:textIsSelectable="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Weapon"
+        android:id="@+id/useWeapon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout><!-- From: file:/Users/alexthornburg/IdeaProjects/nades-0.2/client/Nades/Nades/src/main/res/layout/store.xml -->
