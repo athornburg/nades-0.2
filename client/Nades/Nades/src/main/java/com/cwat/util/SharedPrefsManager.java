@@ -30,4 +30,12 @@ public class SharedPrefsManager {
     }
 
 
+    public String getPoints(){
+        return sharedPrefs.getString("points","points");
+    }
+
+    public void storePoints(String s, String points) {
+        SharedPreferences.Editor editor = sharedPrefs.edit();
+        editor.putString("points",points);
+    }
 }

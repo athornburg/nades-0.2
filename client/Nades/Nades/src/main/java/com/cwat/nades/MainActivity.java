@@ -43,7 +43,12 @@ public class MainActivity extends SherlockFragmentActivity{
         sharedPrefs = new SharedPrefsManager(getSharedPreferences("Login",1));
         sharedPrefs.storeUsernameAndPassword("testing","common");
         Toast.makeText(getApplication(),sharedPrefs.getUsername(),Toast.LENGTH_LONG).show();
-        prefs.getString(PROPERTY_REG_ID, "");
+
+        setContentView(R.layout.activity_main);
+        sharedPrefs = new SharedPrefsManager (getSharedPreferences("Points",1));
+        sharedPrefs.storePoints("points","common");
+        Toast.makeText(getApplication(),sharedPrefs.getPoints(),Toast.LENGTH_LONG).show();
+
 
         //Begin
         mTitle = mDrawerTitle = getTitle();
