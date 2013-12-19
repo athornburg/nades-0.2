@@ -11,174 +11,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6792675a-d989-48ba-896e-dfc388347dbf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/Nades-Nades.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComAndroidSupportGridlayoutV71300.aar/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComAndroidSupportGridlayoutV71300.aar/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/source/buildConfig/debug/com/cwat/nades/BuildConfig.java" afterPath="$PROJECT_DIR$/Nades/build/source/buildConfig/debug/com/cwat/nades/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/source/r/debug/android/support/v7/gridlayout/R.java" afterPath="$PROJECT_DIR$/Nades/build/source/r/debug/android/support/v7/gridlayout/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/Nades/build/source/r/debug/com/actionbarsherlock/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/Nades/build/source/r/debug/com/google/android/gms/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/R.txt" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComAndroidSupportGridlayoutV71300.aar/R.txt" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComAndroidSupportGridlayoutV71300.aar/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/R.txt" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_home.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_tab.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_tab_bar_view.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_tab_bar_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_title_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_menu_layout.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_mode_bar.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-large/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-large/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__activated_background_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__activated_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__activated_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__activity_chooser_view.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__btn_cab_done_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__btn_cab_done_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__btn_cab_done_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__btn_cab_done_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_clear.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_clear.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_clear_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__item_background_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_disable_only_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_disable_only_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_disable_only_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_disable_only_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__progress_horizontal_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__progress_horizontal_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__progress_horizontal_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__progress_horizontal_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable-v11/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable-v11/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-xlarge/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-xlarge/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-xlarge/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-xlarge/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_simple.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__search_dropdown_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__search_dropdown_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__search_dropdown_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__search_view.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/abs__simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__spinner_ab_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__spinner_ab_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__tab_indicator_ab_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_right_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/drawable/abs__textfield_searchview_right_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/ads_attrs.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/ads_attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/colors.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_icon_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_icon_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/color/common_signin_btn_text_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_text_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/color/common_signin_btn_text_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/drawable/common_signin_btn_text_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/maps_attrs.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/maps_attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/proguard.txt" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/proguard.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-v14/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-v14/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-v14/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/layout-v14/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-af/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-af/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-am/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-am/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ar/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ar/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-be/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-be/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-bg/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-bg/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ca/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ca/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-cs/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-cs/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-da/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-da/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-de/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-de/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-el/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-el/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-en-rGB/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-en-rGB/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-en-rIN/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-en-rIN/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-es/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-es/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-es-rUS/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-es-rUS/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-et/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-et/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-et-rEE/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-et-rEE/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fa/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fa/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fi/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fi/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fr/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fr/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fr-rCA/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-fr-rCA/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hi/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hi/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hr/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hr/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hu/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hu/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hy-rAM/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-hy-rAM/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-in/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-in/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-it/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-it/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-iw/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-iw/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ja/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ja/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ka-rGE/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ka-rGE/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-km-rKH/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-km-rKH/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ko/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ko/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-lo-rLA/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-lo-rLA/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-lt/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-lt/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-lv/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-lv/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-mn-rMN/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-mn-rMN/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ms/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ms/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ms-rMY/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ms-rMY/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-nb/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-nb/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-nl/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-nl/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pl/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pl/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pt/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pt/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pt-rBR/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pt-rBR/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pt-rPT/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-pt-rPT/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ro/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ro/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-ru/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sk/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sk/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sl/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sl/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sr/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sr/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sv/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sv/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sw/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-sw/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-th/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-th/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-tl/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-tl/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-tr/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-tr/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-uk/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-uk/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-vi/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-vi/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zh-rCN/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zh-rHK/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zh-rHK/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zh-rTW/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zh-rTW/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zu/strings.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values-zu/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v13_13_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v13_13_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-land/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-land-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-land-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-land-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-land-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-large-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-sw600dp/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-sw600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-v11/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-v14/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w360dp/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w360dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w480dp/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w480dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w500dp/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w500dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w600dp/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-w600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-xlarge/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-xlarge/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComAndroidSupportGridlayoutV71300.aar/res/values/values.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComAndroidSupportGridlayoutV71300.aar/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/version.xml" afterPath="$PROJECT_DIR$/Nades/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/version.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6792675a-d989-48ba-896e-dfc388347dbf" name="Default" comment="" />
     <ignored path="Nades.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -244,57 +77,43 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="48" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="2822">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="51" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="765">
+            <state line="45" column="45" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2415">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoinOrSignUp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/JoinOrSignUp.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="9" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="731">
+            <state line="50" column="28" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateAccount.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CreateAccount.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="57" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="1952" max-vertical-offset="2329">
-              <folding>
-                <element signature="e#2143#4382#0" expanded="true" />
-                <element signature="e#4370#4371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="119" column="67" selection-start="4699" selection-end="4758" vertical-scroll-proportion="0.12080537" vertical-offset="1404" max-vertical-offset="1995">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SharedPrefsManager.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SharedPrefsManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="53" selection-start="834" selection-end="834" vertical-scroll-proportion="0.6946903" vertical-offset="247" max-vertical-offset="799">
+            <state line="27" column="32" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniversalHTTP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="42" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -303,7 +122,7 @@
       <file leaf-file-name="MenuList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MenuList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1530">
+            <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
@@ -312,7 +131,16 @@
       <file leaf-file-name="Loading.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Loading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="13" selection-start="4362" selection-end="4362" vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="3179">
+            <state line="112" column="13" selection-start="4362" selection-end="4362" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="2805">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="17" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
@@ -326,7 +154,6 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitLogSettings">
@@ -492,6 +319,10 @@
                 <option name="name" value="prepareTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
@@ -500,10 +331,6 @@
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dexRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -575,6 +402,11 @@
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare net.simonvt.menudrawer:menudrawer:3.0.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareNetSimonvtMenudrawerMenudrawer305Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintTest" />
               </ExternalTaskPojo>
@@ -596,13 +428,13 @@
                 <option name="name" value="compileDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="preDebugBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="androidDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preDebugBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.actionbarsherlock:actionbarsherlock:4.4.0" />
@@ -1008,8 +840,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1387399194705" />
-        <entry key="C:\Users\Andy Thornburg\Android_Projects\nades-0.2\client\Nades" value="1387399194705" />
+        <entry key="$PROJECT_DIR$/../.." value="1383720967000" />
+        <entry key="$PROJECT_DIR$" value="1386591023000" />
       </map>
     </option>
   </component>
@@ -1063,10 +895,10 @@
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/AddData.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MenuList.java" />
+        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" />
-        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java" />
       </list>
     </option>
   </component>
@@ -1074,10 +906,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1130,7 +961,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1304,10 +1134,6 @@
               <option name="myItemId" value="cwat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1379,39 +1205,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nades" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nades" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Android SDK" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1466,6 +1280,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1491,19 +1318,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1664,34 +1478,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="713" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2774524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21895425" sideWeight="0.43265006" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4302521" sideWeight="0.4319287" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21717991" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6661017" sideWeight="0.4311183" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18557537" sideWeight="0.5025381" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026145" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21895425" sideWeight="0.5673499" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18557537" sideWeight="0.5025381" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6661017" sideWeight="0.4311183" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4302521" sideWeight="0.5680713" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21393842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2137628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1852123" sideWeight="0.49746192" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31699347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18557537" sideWeight="0.49746192" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31740615" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2775974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1722,6 +1536,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/ic_launcher-web.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/drawer_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="15" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="660" />
@@ -1886,9 +1705,22 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/activity_friends.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="45" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="735" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="372" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1924,6 +1756,13 @@
         <state line="15" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1005" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="49" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/FriendsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="1112" max-vertical-offset="1485">
@@ -1943,6 +1782,13 @@
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="26" selection-start="2894" selection-end="2894" vertical-scroll-proportion="0.0" vertical-offset="626" max-vertical-offset="2190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/JoinOrSignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="34" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
@@ -2007,76 +1853,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="27" column="32" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="28" selection-start="2184" selection-end="2184" vertical-scroll-proportion="2.1794872" vertical-offset="0" max-vertical-offset="1836">
+        <state line="50" column="28" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/weapon_list.xml">
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/activity_friends.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="45" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.65436244" vertical-offset="468" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/JoinOrSignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="51" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="765">
+        <state line="45" column="45" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="2145">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="57" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="1952" max-vertical-offset="2329">
-          <folding>
-            <element signature="e#2143#4382#0" expanded="true" />
-            <element signature="e#4370#4371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="48" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="2822">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="53" selection-start="834" selection-end="834" vertical-scroll-proportion="0.6946903" vertical-offset="247" max-vertical-offset="799">
+        <state line="119" column="67" selection-start="4699" selection-end="4758" vertical-scroll-proportion="0.12080537" vertical-offset="1404" max-vertical-offset="1995">
           <folding />
         </state>
       </provider>
@@ -2121,7 +1921,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android API 14 Platform</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2145,7 +1945,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Android API 19 Platform</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2157,7 +1957,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>support-v4-18.0.0</last-edited>
+          <last-edited>butterknife-1.3.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

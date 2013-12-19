@@ -5,7 +5,6 @@ package com.cwat.nades;
  */
 
 import android.app.Activity;
-import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.view.Menu;
@@ -69,8 +68,6 @@ public class Requests extends Activity {
                     database.open();
                     if(!database.containsFriend(username)){
                         database.createFriend(username,gcmID);
-                        Intent intent = new Intent(Requests.this,FriendsActivity.class);
-                        startActivity(intent);
                     }else{
                         Toast toast2 = Toast.makeText(getApplicationContext(), "Already Friends", Toast.LENGTH_LONG);
                         toast2.show();
