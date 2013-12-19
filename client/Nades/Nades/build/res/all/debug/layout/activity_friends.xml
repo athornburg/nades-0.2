@@ -5,8 +5,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Friends" >
+    android:paddingTop="@dimen/activity_vertical_margin">
 
     <Button
         android:id="@+id/add_friend"
@@ -41,4 +40,4 @@
 
     </ListView>
 
-</RelativeLayout><!-- From: file:/Users/alexthornburg/IdeaProjects/nades-0.2/client/Nades/Nades/src/main/res/layout/activity_friends.xml -->
+</RelativeLayout><!-- From: file:/Users/alexthornburg/Desktop/Nades-Repo/nades-0.2/client/Nades/Nades/src/main/res/layout/activity_friends.xml -->

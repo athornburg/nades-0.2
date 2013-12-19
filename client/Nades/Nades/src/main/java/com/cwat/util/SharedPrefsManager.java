@@ -14,10 +14,11 @@ public class SharedPrefsManager {
 
     }
 
-    public void storeUsernameAndPassword(String username, String password){
+    public void storeUsernameAndPassword(String username, String password,String gcmID){
         SharedPreferences.Editor editor = sharedPrefs.edit();
         editor.putString("username", username);
         editor.putString("password", password);
+        editor.putString("gcmID",gcmID);
         editor.commit();
     }
 
@@ -27,6 +28,10 @@ public class SharedPrefsManager {
 
     public String getPassword(){
         return sharedPrefs.getString("password","");
+    }
+
+    public String getGCMID(){
+        return sharedPrefs.getString("gcmID","");
     }
 
 

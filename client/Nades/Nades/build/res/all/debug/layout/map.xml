@@ -3,4 +3,4 @@
     android:id="@+id/map"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:name="com.cwat.ui.SherlockMapFragment"/><!-- From: file:/Users/alexthornburg/IdeaProjects/nades-0.2/client/Nades/Nades/src/main/res/layout/map.xml -->
+    android:name="com.cwat.ui.SherlockMapFragment"/><!-- From: file:/Users/alexthornburg/Desktop/Nades-Repo/nades-0.2/client/Nades/Nades/src/main/res/layout/map.xml -->
