@@ -41,9 +41,10 @@ public class MainActivity extends SherlockFragmentActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         sharedPrefs = new SharedPrefsManager(getSharedPreferences("Login",1));
-        sharedPrefs.storeUsernameAndPassword("testing","common");
+        sharedPrefs.storeUsernameAndPassword("testing","common","gcmID");
         Toast.makeText(getApplication(),sharedPrefs.getUsername(),Toast.LENGTH_LONG).show();
-        prefs.getString(PROPERTY_REG_ID, "");
+        sharedPrefs.storePoints("500");
+        Toast.makeText(getApplicationContext(),sharedPrefs.getPoints(),Toast.LENGTH_LONG).show();
 
         //Begin
         mTitle = mDrawerTitle = getTitle();
@@ -114,8 +115,7 @@ public class MainActivity extends SherlockFragmentActivity{
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         switch (position) {
             case 0:
-                Intent intent = new Intent(this, FriendsActivity.class);
-                startActivity(intent);
+                ft.replace(R.id.content_frame,friends);
                 break;
 
             case 1:

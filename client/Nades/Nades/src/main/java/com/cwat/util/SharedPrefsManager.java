@@ -36,11 +36,12 @@ public class SharedPrefsManager {
 
 
     public String getPoints(){
-        return sharedPrefs.getString("points","points");
+        return sharedPrefs.getString("points","");
     }
 
-    public void storePoints(String s, String points) {
+    public void storePoints(String points) {
         SharedPreferences.Editor editor = sharedPrefs.edit();
         editor.putString("points",points);
+        editor.commit();
     }
 }
