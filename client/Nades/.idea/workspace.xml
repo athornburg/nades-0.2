@@ -12,16 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792675a-d989-48ba-896e-dfc388347dbf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/AddData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/JoinOrSignUp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Loading.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Login.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/source/r/debug/com/cwat/nades/R.java" afterPath="$PROJECT_DIR$/Nades/build/source/r/debug/com/cwat/nades/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml" afterPath="$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -91,7 +84,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="97" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="2190">
+            <state line="48" column="9" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
@@ -100,7 +93,7 @@
       <file leaf-file-name="SharedPrefsManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="40" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+            <state line="20" column="40" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -109,7 +102,7 @@
       <file leaf-file-name="GCMIntentService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="49" selection-start="6312" selection-end="6312" vertical-scroll-proportion="0.0" vertical-offset="2265" max-vertical-offset="2445">
+            <state line="151" column="49" selection-start="6312" selection-end="6312" vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="2771">
               <folding />
             </state>
           </provider>
@@ -118,7 +111,19 @@
       <file leaf-file-name="CreateAccount.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="83" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.4558011" vertical-offset="375" max-vertical-offset="1680">
+            <state line="74" column="18" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.35106382" vertical-offset="803" max-vertical-offset="2074">
+              <folding>
+                <element signature="e#2083#4520#0" expanded="true" />
+                <element signature="e#4508#4509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniversalHTTP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="42" selection-start="1174" selection-end="1174" vertical-scroll-proportion="1.2207447" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -127,7 +132,7 @@
       <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -135,49 +140,34 @@
       </file>
       <file leaf-file-name="create_account.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml">
-          <provider selected="true" editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="42" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-31.28" vertical-offset="0" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
             <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="46" column="42" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="1080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Requests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="68" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1455">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SherlockMapActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/SherlockMapActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="13" selection-start="3067" selection-end="3067" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="1695">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="11" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
+      <file leaf-file-name="map.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/map.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="19" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1320">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -874,6 +864,7 @@
         <entry key="$PROJECT_DIR$" value="1386591023000" />
         <entry key="$USER_HOME$/IdeaProjects/nades-0.2" value="1383720967000" />
         <entry key="$USER_HOME$/IdeaProjects/nades-0.2/client/Nades" value="1386032314000" />
+        <entry key="C:\Users\Andy Thornburg\Android_Projects\nades-0.2\client\Nades" value="1387399194705" />
       </map>
     </option>
   </component>
@@ -927,9 +918,9 @@
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/FriendsActivity.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" />
-        <option value="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java" />
       </list>
     </option>
@@ -938,9 +929,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="713" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1315,6 +1307,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1340,19 +1345,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1513,30 +1505,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="713" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2775974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2774524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36806723" sideWeight="0.21474878" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21717991" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36806723" sideWeight="0.21474878" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18557537" sideWeight="0.50256413" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6661017" sideWeight="0.4311183" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31932774" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34453782" sideWeight="0.7852512" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34313726" sideWeight="0.7852512" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21393842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18557537" sideWeight="0.4974359" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1852123" sideWeight="0.4974359" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3159664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1571,21 +1563,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MenuList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/weapon_list.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/ui/FriendsFragment.java">
@@ -1603,11 +1588,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="22" selection-start="529" selection-end="529" vertical-scroll-proportion="0.32258064" vertical-offset="110" max-vertical-offset="420" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/ui/SherlockMapFragment.java">
@@ -1651,9 +1636,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/activity_loading_screen.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="40" selection-start="206" selection-end="206" vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="390">
           <folding>
@@ -1664,15 +1646,18 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/login_screen.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/login_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="40" selection-start="206" selection-end="206" vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/menu/login.xml">
@@ -1716,21 +1701,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/activity_requests.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="44" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/menu/menu_requests.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/menu/menu_requests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="7" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1787,41 +1772,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/friends.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/activity_friends.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/activity_friends.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="56" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/store.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/store.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/ui/Store.java">
@@ -1839,13 +1817,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/weapon_list.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="555">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MenuList.java">
@@ -1864,7 +1842,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/SherlockMapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="13" selection-start="3067" selection-end="3067" vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="1410">
+        <state line="95" column="13" selection-start="3067" selection-end="3067" vertical-scroll-proportion="3.43617" vertical-offset="0" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
@@ -1872,13 +1850,6 @@
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="151" column="49" selection-start="6312" selection-end="6312" vertical-scroll-proportion="0.0" vertical-offset="1676" max-vertical-offset="2130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="19" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
@@ -1892,7 +1863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="11" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
@@ -1904,27 +1875,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/map.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="66" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="42" selection-start="1174" selection-end="1174" vertical-scroll-proportion="1.2207447" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="97" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="2190">
+        <state line="48" column="9" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="46" column="42" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="1080">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="42" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-31.28" vertical-offset="0" max-vertical-offset="1224">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="83" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.4558011" vertical-offset="375" max-vertical-offset="1680">
-          <folding />
+        <state line="74" column="18" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.35106382" vertical-offset="803" max-vertical-offset="2074">
+          <folding>
+            <element signature="e#2083#4520#0" expanded="true" />
+            <element signature="e#4508#4509#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

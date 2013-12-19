@@ -66,7 +66,13 @@ public class CreateAccount extends Activity {
                 int selectedId = radioLoginGroup.getCheckedRadioButtonId();
                 String id = Integer.toString(selectedId);
                 Log.i("radioID",id);
-                UniversalHTTP check = new UniversalHTTP();
+                if(login.getText().equals("CreateAccount")){
+                    toast.makeText(getApplicationContext(), usernameText, Toast.LENGTH_LONG);
+                    toast.show();
+                }else if(login.getText().equals("Login")){
+                    toast.makeText(getApplicationContext(),usernameText, Toast.LENGTH_LONG).show();
+                }
+                /*UniversalHTTP check = new UniversalHTTP();
                 try {
                     results = check.execute(server+"get_user/"+usernameText+"/").get();
                     System.out.println("RESULTS"+results);
@@ -75,14 +81,14 @@ public class CreateAccount extends Activity {
                     check.cancel(true);
 
                 } catch (InterruptedException e) {
-                    Toast error = Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT);
+                   Toast error = Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT);
                     error.show();
                 } catch (ExecutionException e) {
                     Toast error1 = Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT);
                     error1.show();
-                }
 
-                if(!usernameTaken.equals("safe")){
+
+               if(!usernameTaken.equals("safe")){
                     toast = Toast.makeText(getApplicationContext(), "Username Taken! Try Another", Toast.LENGTH_LONG);
                     toast.show();
                 }else {
@@ -96,7 +102,7 @@ public class CreateAccount extends Activity {
                         editor.putString("username", usernameText);
                         editor.commit();
                     }
-                }
+                }*/
             }
 
         });
