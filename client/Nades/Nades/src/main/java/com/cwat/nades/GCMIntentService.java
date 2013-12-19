@@ -2,7 +2,6 @@ package com.cwat.nades;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences.Editor;
@@ -143,8 +142,6 @@ public class GCMIntentService extends IntentService {
         mNotificationManager = (NotificationManager)
                 this.getSystemService(Context.NOTIFICATION_SERVICE);
 
-        PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
-                new Intent(this, Loading.class), 0);
 
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
@@ -153,8 +150,6 @@ public class GCMIntentService extends IntentService {
                         .setStyle(new NotificationCompat.BigTextStyle()
                                 .bigText(message))
                         .setContentText(message);
-
-        mBuilder.setContentIntent(contentIntent);
         mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
 
     }

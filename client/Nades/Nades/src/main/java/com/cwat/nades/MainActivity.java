@@ -29,22 +29,26 @@ public class MainActivity extends SherlockFragmentActivity{
     String[] title;
     String[] subtitle;
     int[] icon;
-    SherlockFragment friends = new FriendsFragment();
     SherlockFragment store = new Store();
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
     public AccountManager manager;
     SharedPrefsManager sharedPrefs;
+    SherlockFragment friends = new FriendsFragment();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         sharedPrefs = new SharedPrefsManager(getSharedPreferences("Login",1));
-        sharedPrefs.storeUsernameAndPassword("testing","common","gcmID");
-        Toast.makeText(getApplication(),sharedPrefs.getUsername(),Toast.LENGTH_LONG).show();
         sharedPrefs.storePoints("500");
         Toast.makeText(getApplicationContext(),sharedPrefs.getPoints(),Toast.LENGTH_LONG).show();
+        if(sharedPrefs.getUsername().isEmpty()){
+            Intent i = new Intent(MainActivity.this,CreateAccount.class);
+            startActivity(i);
+        }
+        Toast.makeText(getApplication(),sharedPrefs.getUsername(),Toast.LENGTH_LONG).show();
+        sharedPrefs.getGCMID();
 
         //Begin
         mTitle = mDrawerTitle = getTitle();
@@ -115,9 +119,8 @@ public class MainActivity extends SherlockFragmentActivity{
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         switch (position) {
             case 0:
-                ft.replace(R.id.content_frame,friends);
+                ft.replace(R.id.content_frame, friends);
                 break;
-
             case 1:
                 Intent intent1 = new Intent(this, SherlockMapActivity.class);
                 startActivity(intent1);

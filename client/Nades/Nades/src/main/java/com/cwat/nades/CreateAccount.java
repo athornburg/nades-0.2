@@ -6,7 +6,6 @@ package com.cwat.nades;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -17,11 +16,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.cwat.util.UniversalHTTP;
 import com.cwat.util.UserDAO;
-import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import java.util.concurrent.ExecutionException;
 
@@ -30,10 +30,12 @@ public class CreateAccount extends Activity {
     Button submit;
     EditText username;
     EditText password;
+    private RadioGroup radioLoginGroup;
+    Button login;
+    Button createAccount;
     Context numberContext;
     String server = "http://nades-game.elasticbeanstalk.com/";
     public static final String EXTRA_MESSAGE = "message";
-    public static final String PROPERTY_REG_ID = "registration_id";
     private static final String PROPERTY_APP_VERSION = "0.1";
     private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     String usernameText;
@@ -46,15 +48,14 @@ public class CreateAccount extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_account);
+        login = (RadioButton)findViewById(R.id.login);
+        createAccount = (RadioButton)findViewById(R.id.create_account);
         username = (EditText)findViewById(R.id.username);
         password = (EditText)findViewById(R.id.password);
         results = new UserDAO();
         final SharedPreferences prefs = getGCMPreferences(getApplicationContext());
-        phoneNumber = prefs.getString(PROPERTY_REG_ID, "");
-        if(phoneNumber.equals("")){
-            GoogleCloudMessaging gcm = GoogleCloudMessaging.getInstance(this);
-            phoneNumber = getRegistrationId(getApplicationContext());
-        }
+        radioLoginGroup = (RadioGroup)findViewById(R.id.radioLogin);
+
         Toast.makeText(getApplicationContext(),phoneNumber, Toast.LENGTH_LONG).show();
         submit = (Button)findViewById(R.id.submit);
         submit.setOnClickListener(new OnClickListener(){
@@ -62,8 +63,9 @@ public class CreateAccount extends Activity {
             public void onClick(View view){
                 usernameText = username.getText().toString();
                 passwordText = password.getText().toString();
-
-
+                int selectedId = radioLoginGroup.getCheckedRadioButtonId();
+                String id = Integer.toString(selectedId);
+                Log.i("radioID",id);
                 UniversalHTTP check = new UniversalHTTP();
                 try {
                     results = check.execute(server+"get_user/"+usernameText+"/").get();
@@ -94,20 +96,12 @@ public class CreateAccount extends Activity {
                         editor.putString("username", usernameText);
                         editor.commit();
                     }
-                    Intent intent = new Intent(CreateAccount.this,AddData.class);
-                    intent.putExtra("sendUsername", usernameText);
-                    intent.putExtra("sendPassword", passwordText);
-                    intent.putExtra("sendPhone", phoneNumber);
-                    startActivity(intent);
                 }
             }
 
         });
+        }
 
-
-
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -116,21 +110,6 @@ public class CreateAccount extends Activity {
         return true;
     }
 
-    private String getRegistrationId(Context context) {
-        final SharedPreferences prefs = getGCMPreferences(context);
-        String registrationId = prefs.getString(PROPERTY_REG_ID, "");
-        if (registrationId.isEmpty()) {
-            Log.i("error", "Registration not found.");
-            return "";
-        }
-        int registeredVersion = prefs.getInt(PROPERTY_APP_VERSION, Integer.MIN_VALUE);
-        int currentVersion = getAppVersion(context);
-        if (registeredVersion != currentVersion) {
-            Log.i("error", "App version changed.");
-            return "";
-        }
-        return registrationId;
-    }
 
     private SharedPreferences getGCMPreferences(Context context) {
         return getSharedPreferences(CreateAccount.class.getSimpleName(),

@@ -1258,6 +1258,7 @@ containing a value of this type.
         public static final int store_icon=0x7f020097;
     }
     public static final class id {
+        public static final int Login=0x7f060055;
         public static final int abs__action_bar=0x7f060036;
         public static final int abs__action_bar_container=0x7f060035;
         public static final int abs__action_bar_subtitle=0x7f060027;
@@ -1297,7 +1298,7 @@ containing a value of this type.
         public static final int abs__textButton=0x7f060029;
         public static final int abs__title=0x7f060031;
         public static final int abs__up=0x7f060025;
-        public static final int action_settings=0x7f06005d;
+        public static final int action_settings=0x7f06005f;
         public static final int add_friend=0x7f060048;
         public static final int alignBounds=0x7f060002;
         public static final int alignMargins=0x7f060003;
@@ -1321,18 +1322,19 @@ containing a value of this type.
         public static final int homeAsUp=0x7f06001b;
         public static final int horizontal=0x7f060000;
         public static final int hybrid=0x7f060016;
-        public static final int icon=0x7f060055;
+        public static final int icon=0x7f060056;
         public static final int left=0x7f060006;
         public static final int listMode=0x7f060017;
         public static final int listview_drawer=0x7f06004e;
-        public static final int listview_weapons=0x7f060059;
-        public static final int login=0x7f060053;
-        public static final int map=0x7f060058;
-        public static final int menu_settings=0x7f06005e;
+        public static final int listview_weapons=0x7f06005b;
+        public static final int login=0x7f060059;
+        public static final int map=0x7f06005a;
+        public static final int menu_settings=0x7f060060;
         public static final int none=0x7f060012;
         public static final int normal=0x7f060013;
         public static final int password=0x7f060051;
         public static final int progressBar1=0x7f06004b;
+        public static final int radioLogin=0x7f060053;
         public static final int requests_lists=0x7f06004f;
         public static final int right=0x7f060007;
         public static final int satellite=0x7f060014;
@@ -1341,17 +1343,17 @@ containing a value of this type.
         public static final int showTitle=0x7f06001c;
         public static final int start=0x7f060010;
         public static final int submit=0x7f060052;
-        public static final int subtitle=0x7f060057;
+        public static final int subtitle=0x7f060058;
         public static final int tabMode=0x7f060018;
         public static final int terrain=0x7f060015;
-        public static final int title=0x7f060056;
+        public static final int title=0x7f060057;
         public static final int top=0x7f060004;
         public static final int useLogo=0x7f060019;
-        public static final int useWeapon=0x7f06005c;
+        public static final int useWeapon=0x7f06005e;
         public static final int username=0x7f060050;
         public static final int vertical=0x7f060001;
-        public static final int weaponDesc=0x7f06005b;
-        public static final int weaponName=0x7f06005a;
+        public static final int weaponDesc=0x7f06005d;
+        public static final int weaponName=0x7f06005c;
         public static final int wrap_content=0x7f06001f;
     }
     public static final class integer {
