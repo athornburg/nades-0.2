@@ -1,9 +1,12 @@
 package com.cwat.nades.app;
 
-import org.ektorp.support.CouchDbDocument;
-import org.codehaus.jackson.annotate.JsonWriteNullProperties;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
+import org.codehaus.jackson.annotate.JsonWriteNullProperties;
+import org.ektorp.support.CouchDbDocument;
+
+import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
 /**
  * User: alexthornburg
  * Date: 12/2/13
@@ -13,7 +16,8 @@ import org.codehaus.jackson.annotate.JsonProperty;
 
 @JsonWriteNullProperties(false)
 @JsonIgnoreProperties({"id", "revision"})
-public class UserDAO extends CouchDbDocument{
+@XmlRootElement(name = "UserDAO")
+public class UserDAO extends CouchDbDocument implements Serializable {
     private String username;
     private String password;
     private String gcmID;

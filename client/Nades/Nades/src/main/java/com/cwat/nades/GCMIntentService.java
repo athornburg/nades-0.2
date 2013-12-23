@@ -16,10 +16,10 @@ import android.widget.Toast;
 
 import com.cwat.util.FriendsDataDistributor;
 import com.cwat.util.UniversalHTTP;
-import com.cwat.util.UserDAO;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -69,10 +69,10 @@ public class GCMIntentService extends IntentService {
 
                 UniversalHTTP getID = new UniversalHTTP();
                 try{
-                   UserDAO id = getID.execute(server+"getID/"+splitMessage[0]+"/").get();
+                   JSONObject id = getID.execute(server+"getID/"+splitMessage[0]+"/").get();
                     database.open();
                     if(!database.containsFriend(splitMessage[0])){
-                        database.createFriend(splitMessage[0],id.getUsername());
+                        database.createFriend(splitMessage[0],id.getString("username"));
                         database.close();
                     }else{
                         Toast toast = Toast.makeText(getApplicationContext(), "Already Friends", Toast.LENGTH_LONG);
@@ -122,7 +122,7 @@ public class GCMIntentService extends IntentService {
                         + " " + gLocation.getLatitude() + " "+getSharedPreferences("Login",1).getString("username", "")));
                UniversalHTTP sendRequest = new UniversalHTTP();
                 try{
-                    UserDAO success = sendRequest.execute(server + "send_message/"+splitMessage[1]+"/"+"FRIEND_LOCATION "+gLocation.getLongitude()
+                    JSONObject success = sendRequest.execute(server + "send_message/"+splitMessage[1]+"/"+"FRIEND_LOCATION "+gLocation.getLongitude()
                             + " " + gLocation.getLatitude() + " "+getSharedPreferences("Login",1).getString("username", "")+"/").get();
                     Toast toast = Toast.makeText(getApplicationContext(),"REPLY"+success,Toast.LENGTH_LONG);
                     toast.show();

@@ -39,7 +39,8 @@
         android:theme="@style/Theme.Sherlock" >
         <activity
             android:name="com.cwat.nades.MainActivity"
-            android:label="Nades!" >
+            android:label="Nades!"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,7 +54,8 @@
         </activity>
         <activity
             android:name="com.cwat.nades.CreateAccount"
-            android:label="Create Account" >
+            android:label="Create Account"
+            android:launchMode="singleTask">
         </activity>
         <activity
             android:name="com.cwat.nades.Requests"

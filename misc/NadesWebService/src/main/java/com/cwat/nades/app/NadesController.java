@@ -1,8 +1,5 @@
 package com.cwat.nades.app;
 
-import com.google.android.gcm.server.Message;
-import com.google.android.gcm.server.MulticastResult;
-import com.google.android.gcm.server.Sender;
 import com.google.gson.Gson;
 import org.ektorp.CouchDbConnector;
 import org.ektorp.CouchDbInstance;
@@ -23,17 +20,16 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping("/")
 public class NadesController {
     private static final String SENDER_ID = "AIzaSyD_5IrsNvP8PlCZhRyBCEnfiJuPhv2kWMU";
     private List<String> androidTargets = new ArrayList<String>();
 
-    @RequestMapping(method = RequestMethod.GET)
-    public String username(ModelMap model){
-         return "success";
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String home() {
+        return "index";
     }
     //add user
-    @RequestMapping(value = "add_user/{username}/{password}/{gcmID}/", method = RequestMethod.GET,produces = "application/json")
+    @RequestMapping(value = "/add_user/{username}/{password}/{gcmID}/", method = RequestMethod.GET,produces = "application/json")
     public @ResponseBody UserDAO username(ModelMap model,@PathVariable String username,@PathVariable String password,@PathVariable String gcmID) throws Exception {
         UserDAO user = new UserDAO();
         user.setId(username);
@@ -53,7 +49,7 @@ public class NadesController {
         return user;
     }
    //Add a mine
-    @RequestMapping(value="add_mine/{username}/{x}/{y}/",method = RequestMethod.GET,produces = "application/json")
+    @RequestMapping(value="/add_mine/{username}/{x}/{y}/",method = RequestMethod.GET,produces = "application/json")
     public @ResponseBody MineDAO mine(ModelMap model,@PathVariable String username,@PathVariable String x,@PathVariable String y) throws Exception {
         MineDAO mine = new MineDAO();
         mine.setId(username);
@@ -73,7 +69,7 @@ public class NadesController {
         return mine;
     }
 
-    @RequestMapping(value="get_user/{username}/",method = RequestMethod.GET,produces = "application/json")
+    @RequestMapping(value="/get_user/{username}",method = RequestMethod.GET,produces = "application/json")
     public @ResponseBody UserDAO checkUsername(ModelMap model,@PathVariable String username) throws Exception {
         HttpClient authenticatedHttpClient = new StdHttpClient.Builder()
                 .url("http://nades.cloudant.com:5984")
@@ -85,7 +81,7 @@ public class NadesController {
         Gson gson = new Gson();
         if(!db.contains(username)){
             UserDAO user = new UserDAO();
-            user.setId("safe");
+            user.setUsername("safe");
             return user;
         }else{
             return db.get(UserDAO.class,username);
@@ -94,7 +90,7 @@ public class NadesController {
 
 
 
-    @RequestMapping(value="gcmMessage/{message}/{gcmID}/",method = RequestMethod.GET,produces = "application/json")
+   /* @RequestMapping(value="gcmMessage/{message}/{gcmID}/",method = RequestMethod.GET,produces = "application/json")
     public @ResponseBody UserDAO message(ModelMap model,@PathVariable String message,@PathVariable String gcmID) throws Exception {
         Sender sender = new Sender(SENDER_ID);
         Message gcmMessage = new Message.Builder()
@@ -124,9 +120,9 @@ public class NadesController {
         user.setId("success");
         Gson gson = new Gson();
         return user;
-    }
+    }   */
 
-    @RequestMapping(value="check_credentials/{username}/{password}/",method = RequestMethod.GET,produces = "application/json")
+    @RequestMapping(value="/check_credentials/{username}/{password}/",method = RequestMethod.GET,produces = "application/json")
     public @ResponseBody UserDAO checkCredentials(ModelMap model, @PathVariable String username) throws Exception {
         HttpClient authenticatedHttpClient = new StdHttpClient.Builder()
                 .url("http://nades.cloudant.com:5984")

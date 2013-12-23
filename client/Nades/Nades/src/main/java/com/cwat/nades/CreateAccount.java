@@ -6,11 +6,9 @@ package com.cwat.nades;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -21,18 +19,19 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.cwat.util.UniversalHTTP;
-import com.cwat.util.UserDAO;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.concurrent.ExecutionException;
 
 public class CreateAccount extends Activity {
-    UserDAO results;
+    JSONObject results;
     Button submit;
     EditText username;
     EditText password;
     private RadioGroup radioLoginGroup;
     Button login;
-    Button createAccount;
     Context numberContext;
     String server = "http://nades-game.elasticbeanstalk.com/";
     public static final String EXTRA_MESSAGE = "message";
@@ -48,15 +47,10 @@ public class CreateAccount extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_account);
-        login = (RadioButton)findViewById(R.id.login);
-        createAccount = (RadioButton)findViewById(R.id.create_account);
         username = (EditText)findViewById(R.id.username);
         password = (EditText)findViewById(R.id.password);
-        results = new UserDAO();
-        final SharedPreferences prefs = getGCMPreferences(getApplicationContext());
+        results = new JSONObject();
         radioLoginGroup = (RadioGroup)findViewById(R.id.radioLogin);
-
-        Toast.makeText(getApplicationContext(),phoneNumber, Toast.LENGTH_LONG).show();
         submit = (Button)findViewById(R.id.submit);
         submit.setOnClickListener(new OnClickListener(){
             @Override
@@ -65,24 +59,25 @@ public class CreateAccount extends Activity {
                 passwordText = password.getText().toString();
                 int selectedId = radioLoginGroup.getCheckedRadioButtonId();
                 String id = Integer.toString(selectedId);
-                Log.i("radioID",id);
+                login = (RadioButton) findViewById(selectedId);
+                if(login.getText().equals("Create Account")){
+
                 UniversalHTTP check = new UniversalHTTP();
                 try {
                     results = check.execute(server+"get_user/"+usernameText+"/").get();
-                    System.out.println("RESULTS"+results);
-                    usernameTaken=results.getUsername();
-                    Toast.makeText(getApplicationContext(), usernameTaken, Toast.LENGTH_LONG).show();
-                    check.cancel(true);
-
+                    usernameTaken=results.getString("_id");
+                    Toast.makeText(getApplicationContext(),usernameTaken,Toast.LENGTH_LONG).show();
                 } catch (InterruptedException e) {
                     Toast error = Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT);
                     error.show();
                 } catch (ExecutionException e) {
                     Toast error1 = Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT);
                     error1.show();
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
 
-                if(!usernameTaken.equals("safe")){
+                    if(!usernameTaken.equals("safe")){
                     toast = Toast.makeText(getApplicationContext(), "Username Taken! Try Another", Toast.LENGTH_LONG);
                     toast.show();
                 }else {
@@ -90,13 +85,26 @@ public class CreateAccount extends Activity {
                         Toast enterPassword = Toast.makeText(getApplicationContext(), "EnterPassword", Toast.LENGTH_LONG);
                         enterPassword.show();
                     }else{
+                        UniversalHTTP add = new UniversalHTTP();
+                        try {
+                            results = add.execute(server+"add_user/"+usernameText+"/"+passwordText+"/"+"nothing/").get();
+                        } catch (InterruptedException e) {
+                            Toast error = Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT);
+                            error.show();
+                        } catch (ExecutionException e) {
+                            Toast error1 = Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT);
+                            error1.show();
+                        }
                         numberContext = getApplicationContext();
                         SharedPreferences.Editor editor = getSharedPreferences("Login",0).edit();
                         editor.putString("password", passwordText);
                         editor.putString("username", usernameText);
                         editor.commit();
+                        Intent i = new Intent(CreateAccount.this,MainActivity.class);
+                        startActivity(i);
                     }
                 }
+            }
             }
 
         });
@@ -110,20 +118,5 @@ public class CreateAccount extends Activity {
         return true;
     }
 
-
-    private SharedPreferences getGCMPreferences(Context context) {
-        return getSharedPreferences(CreateAccount.class.getSimpleName(),
-                Context.MODE_PRIVATE);
-    }
-
-    private static int getAppVersion(Context context) {
-        try {
-            PackageInfo packageInfo = context.getPackageManager()
-                    .getPackageInfo(context.getPackageName(), 0);
-            return packageInfo.versionCode;
-        } catch (NameNotFoundException e) {
-            throw new RuntimeException("Could not get package name: " + e);
-        }
-    }
 
 }

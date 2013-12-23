@@ -16,7 +16,8 @@ import android.widget.Toast;
 
 import com.cwat.util.FriendsDataDistributor;
 import com.cwat.util.UniversalHTTP;
-import com.cwat.util.UserDAO;
+
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -49,8 +50,8 @@ public class Requests extends Activity {
                 debugtoast.show();
                 UniversalHTTP getID = new UniversalHTTP();
                 try{
-                    UserDAO array = getID.execute(server+"getID/"+username+"/").get();
-                    gcmID = array.getGcmID();
+                    JSONObject array = getID.execute(server+"getID/"+username+"/").get();
+                    gcmID = array.getString("gcmID");
                     getID.cancel(true);
                 }catch(Exception e){
                     Toast toast = Toast.makeText(getApplicationContext(), "Error getting ID", Toast.LENGTH_LONG);
@@ -58,11 +59,11 @@ public class Requests extends Activity {
                 }
                 UniversalHTTP sendResponse = new UniversalHTTP();
                 try{
-                    UserDAO response = sendResponse.execute(server+"gcmMessage/"+gcmID+"/"+getSharedPreferences("Login",1).getString("username", "")+" has accepted your friend request."+"/").get();
+                    JSONObject response = sendResponse.execute(server+"gcmMessage/"+gcmID+"/"+getSharedPreferences("Login",1).getString("username", "")+" has accepted your friend request."+"/").get();
                     Editor edit = getSharedPreferences("messages",1).edit();
                     edit.remove("message");
                     edit.commit();
-                    Toast toast = Toast.makeText(getApplicationContext(),response.getGcmID(),Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getApplicationContext(),response.getString("gcmID"),Toast.LENGTH_LONG);
                     toast.show();
                     FriendsDataDistributor database = new FriendsDataDistributor(getApplicationContext());
                     database.open();

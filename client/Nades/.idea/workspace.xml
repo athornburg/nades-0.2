@@ -12,19 +12,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6792675a-d989-48ba-896e-dfc388347dbf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/AddData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/JoinOrSignUp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Loading.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Login.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/resources/security.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__com_ganyo_gcm_server_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__com_google_code_gson_gson_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_cache_4_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_ektorp_org_ektorp_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_ektorp_org_ektorp_spring_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/NadesWebService.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/pages/success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/test/java/com/cwat/nades/app/AppTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/target/NadesWebService/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/target/NadesWebService/WEB-INF/pages/gcmResult.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/target/NadesWebService/WEB-INF/pages/success.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/rest-servlet.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/pages/gcmResult.jsp" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/views/gcmResult.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/target/NadesWebService.war" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/target/NadesWebService.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/build/source/r/debug/com/cwat/nades/R.java" afterPath="$PROJECT_DIR$/Nades/build/source/r/debug/com/cwat/nades/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml" afterPath="$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/java/com/cwat/nades/app/NadesController.java" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/java/com/cwat/nades/app/NadesController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java" afterPath="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/java/com/cwat/nades/app/UserDAO.java" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/java/com/cwat/nades/app/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/libraries/lib.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/main.iml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/pom.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/target/NadesWebService/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/target/NadesWebService/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../misc/NadesWebService/.idea/workspace.xml" />
     </list>
     <ignored path="Nades.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,25 +149,48 @@
       <file leaf-file-name="GCMIntentService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="49" selection-start="6312" selection-end="6312" vertical-scroll-proportion="0.0" vertical-offset="2265" max-vertical-offset="2445">
+            <state line="124" column="30" selection-start="5110" selection-end="5110" vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="2130">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateAccount.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CreateAccount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="83" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.4558011" vertical-offset="375" max-vertical-offset="1680">
+            <state line="96" column="25" selection-start="4127" selection-end="4127" vertical-scroll-proportion="0.0" vertical-offset="950" max-vertical-offset="1635">
+              <folding>
+                <element signature="e#1697#4674#0" expanded="true" />
+                <element signature="e#4662#4663#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Requests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="98" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <file leaf-file-name="UniversalHTTP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="27" column="43" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1035">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -145,19 +208,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Requests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="68" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1455">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SherlockMapActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/SherlockMapActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="13" selection-start="3067" selection-end="3067" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="1695">
+            <state line="42" column="43" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.5083799" vertical-offset="448" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
@@ -167,15 +221,6 @@
         <entry file="file://$PROJECT_DIR$/local.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="19" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -920,17 +965,17 @@
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Loading.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Login.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/AddData.java" />
-        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MenuList.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/res/layout/activity_friends.xml" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/FriendsActivity.java" />
-        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java" />
-        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" />
-        <option value="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Nades/src/main/res/layout/create_account.xml" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" />
+        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java" />
+        <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java" />
         <option value="$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java" />
+        <option value="$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -940,7 +985,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="713" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1165,10 +1210,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cwat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1489,7 +1530,11 @@
       <created>1385156563908</created>
       <updated>1385156563908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updates to login screen if no SharedPrefs">
+      <created>1387416630703</created>
+      <updated>1387416630703</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1513,7 +1558,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="713" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="708" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1528,8 +1573,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18557537" sideWeight="0.50256413" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6661017" sideWeight="0.4311183" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31932774" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34453782" sideWeight="0.7852512" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31871837" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3457627" sideWeight="0.7852512" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21393842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1537,7 +1582,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18557537" sideWeight="0.4974359" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3159664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3153457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1565,7 +1610,8 @@
     <MESSAGE value="Action bar sherlock finally working." />
     <MESSAGE value="New Icons" />
     <MESSAGE value="This should get us rolling. Most Client side UI stuff is done." />
-    <option name="LAST_COMMIT_MESSAGE" value="This should get us rolling. Most Client side UI stuff is done." />
+    <MESSAGE value="Updates to login screen if no SharedPrefs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to login screen if no SharedPrefs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1761,11 +1807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1005" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="49" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="675">
@@ -1783,13 +1824,6 @@
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/AbstractAsyncActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
@@ -1855,30 +1889,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="68" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/SherlockMapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="13" selection-start="3067" selection-end="3067" vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="49" selection-start="6312" selection-end="6312" vertical-scroll-proportion="0.0" vertical-offset="1676" max-vertical-offset="2130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="19" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
@@ -1921,9 +1934,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/GCMIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="30" selection-start="5110" selection-end="5110" vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="2130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/Requests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="98" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/util/UniversalHTTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="43" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1035">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Nades/src/main/java/com/cwat/nades/CreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="83" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.4558011" vertical-offset="375" max-vertical-offset="1680">
+        <state line="96" column="25" selection-start="4127" selection-end="4127" vertical-scroll-proportion="0.0" vertical-offset="950" max-vertical-offset="1635">
+          <folding>
+            <element signature="e#1697#4674#0" expanded="true" />
+            <element signature="e#4662#4663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nades/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="43" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.5083799" vertical-offset="448" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>

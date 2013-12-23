@@ -2,190 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00f4cd34-7ace-4c1a-b073-f192e169e3c1" name="Default" comment="HTTP fix">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../client/Nades/Nades.iml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/security.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/JoinOrSignUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ganyo_gcm_server_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_cache_4_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ektorp_org_ektorp_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ektorp_org_ektorp_spring_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NadesWebService.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cwat/nades/app/AppTests.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/rest-servlet.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/gcmResult.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gcmResult.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/CreateAccount$1.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/CreateAccount$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/CreateAccount.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/CreateAccount.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/GCMIntentService$1.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/GCMIntentService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/GCMIntentService.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/GCMIntentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MainActivity$1.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MainActivity$DrawerItemClickListener.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MainActivity$DrawerItemClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MainActivity.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MenuList.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/MenuList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/apk/Nades-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/apk/Nades-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/libs/Nades-debug.ap_" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/libs/Nades-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/libs/Nades-debug.dex" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/libs/Nades-debug.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$id.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$integer.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$layout.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$menu.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$string.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$style.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$styleable.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/Requests$1.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/Requests$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/Requests.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/Requests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/util/SharedPrefsManager.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/util/SharedPrefsManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/SherlockMapActivity.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/nades/SherlockMapActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/ui/Store.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/ui/Store.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/util/UniversalHTTP.class" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/classes/debug/com/cwat/util/UniversalHTTP.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../../client/Nades/.gradle/1.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/MainActivity.java" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/Nades-Nades.iml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/Nades-Nades.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/util/SharedPrefsManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_home.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_tab.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_title_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_menu_layout.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_mode_bar.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__activity_chooser_view.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_clear.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_clear.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__item_background_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/abs__primary_text_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_simple.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__search_dropdown_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__search_dropdown_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__search_view.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_friends.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_friends.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_loading_screen.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_loading_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_requests.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/activity_requests.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_icon_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_icon_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/common_signin_btn_text_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_text_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/color/common_signin_btn_text_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/manifests/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/CreateAccount.java" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/CreateAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/GCMIntentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/NadesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/NadesController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/Requests.java" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/nades/Requests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/util/UniversalHTTP.java" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/src/main/java/com/cwat/util/UniversalHTTP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/create_account.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/create_account.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/create_account.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/create_account.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/dialog_login.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/dialog_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/drawer_list.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/drawer_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/friends.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/friends.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/dex/debug/inputs.data" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/dex/debug/inputs.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeResources/debug/inputs.data" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeResources/debug/inputs.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/join_game.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/join_game.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/login.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/login_screen.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/login_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/login_screen.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/login_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/map.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/map.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/menu_requests.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/menu/menu_requests.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/main.iml" afterPath="$PROJECT_DIR$/src/main/main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../client/Nades/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeResources/debug/outputs.data" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/incremental/mergeResources/debug/outputs.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/store.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/store.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-af/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-af/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-am/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-am/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ar/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ar/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-be/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-be/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-bg/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-bg/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ca/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ca/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-cs/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-cs/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-da/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-da/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-de/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-de/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-el/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-el/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-en-rGB/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-en-rIN/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-en-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-es/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-es-rUS/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-et/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-et/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-et-rEE/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-et-rEE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fa/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fa/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fi/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fr/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fr-rCA/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-fr-rCA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hi/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hr/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hu/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hy-rAM/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-hy-rAM/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-in/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-in/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-it/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-it/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-iw/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-iw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ja/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ja/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ka-rGE/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ka-rGE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-km-rKH/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-km-rKH/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ko/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ko/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-land/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-large-mdpi-1024x600/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-lo-rLA/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-lo-rLA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-lt/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-lt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-lv/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-lv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-mn-rMN/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-mn-rMN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ms/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ms/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ms-rMY/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ms-rMY/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-nb/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-nb/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-nl/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-nl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pl/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pt/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pt-rBR/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pt-rBR/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-pt-rPT/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ro/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ro/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ru/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-ru/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sk/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sl/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sr/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sv/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sw/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sw600dp/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sw600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-th/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-th/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-tl/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-tl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-tr/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-tr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-uk/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-uk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-vi/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-vi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w360dp/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w360dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w480dp/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w480dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w500dp/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w500dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w600dp/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-w600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-xlarge/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-xlarge/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zh-rCN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zh-rHK/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zh-rHK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zh-rTW/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zu/values.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/values-zu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/weapon_list.xml" afterPath="$PROJECT_DIR$/../../client/Nades/Nades/build/res/all/debug/layout/weapon_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../client/Nades/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../client/Nades/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="fd4a4712-e74f-422a-8bf1-617f401c0ba0" name="New changelist" comment="" />
     <ignored path="NadesWebService.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1387400613413" ignored="false" />
-    <file path="/NadesController.java" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1386635344516" ignored="false" />
+    <file path="/Dummy.txt" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1387779340265" ignored="false" />
+    <file path="/NadesController.java" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1387779412085" ignored="false" />
     <file path="/pom.xml" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1386634290201" ignored="false" />
+    <file path="/UserDAO.java" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1387776847227" ignored="false" />
+    <file path="/success.jsp" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1387423749101" ignored="false" />
+    <file path="/web.xml" changelist="00f4cd34-7ace-4c1a-b073-f192e169e3c1" time="1387777144087" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +109,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -237,6 +145,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -249,18 +158,18 @@
       <file leaf-file-name="NadesController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/NadesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="3365" selection-end="3420" vertical-scroll-proportion="2.3732252">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="87" column="82" selection-start="3755" selection-end="3755" vertical-scroll-proportion="1.8536122">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
             <state />
@@ -268,17 +177,33 @@
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rest-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/rest-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="77" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="54" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+            <state line="11" column="7" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="28" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -287,7 +212,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="27" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
+            <state line="122" column="10" selection-start="3887" selection-end="3887" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -296,7 +221,7 @@
       <file leaf-file-name="UserDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="9" selection-start="311" selection-end="1380" vertical-scroll-proportion="0.0">
+            <state line="3" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -323,20 +248,53 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/Sender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/ApiKeyInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/security.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/config/ComponentConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cwat/nades/app/NadesController.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="NadesWebService" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="NadesWebService" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1260" />
-    <option name="height" value="652" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -366,6 +324,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -374,26 +334,178 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NadesWebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/nades-0.2/client/Nades/build.gradle" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -502,6 +614,17 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="false" name="JBoss 7.1.2.Final-redhat-1" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.2.Final-redhat-1">
@@ -623,8 +746,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1260" height="652" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1260" height="708" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -641,17 +764,17 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08649094" sideWeight="0.86466163" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12685338" sideWeight="0.7176871" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2166392" sideWeight="0.86466163" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13533835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2166392" sideWeight="0.7176871" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28231293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -720,34 +843,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/NadesController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="122" column="10" selection-start="3887" selection-end="3887" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="54" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="360" selection-end="433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="360" selection-end="433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -768,16 +880,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/NadesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="3365" selection-end="3420" vertical-scroll-proportion="2.3732252">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
@@ -785,17 +897,8 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="54" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -808,6 +911,64 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="9" selection-start="311" selection-end="1380" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="10" selection-start="3887" selection-end="3887" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/rest-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="77" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwat/nades/app/NadesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="82" selection-start="3755" selection-end="3755" vertical-scroll-proportion="1.8536122">
           <folding />
         </state>
       </provider>
@@ -815,6 +976,107 @@
   </component>
   <component name="hg4idea.settings">
     <option name="CHECK_INCOMING_OUTGOING" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>NadesWebService:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>AspectJ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
