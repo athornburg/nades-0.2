@@ -43,11 +43,10 @@ public class MainActivity extends SherlockFragmentActivity{
         sharedPrefs = new SharedPrefsManager(getSharedPreferences("Login",1));
         sharedPrefs.storePoints("500");
         Toast.makeText(getApplicationContext(),sharedPrefs.getPoints(),Toast.LENGTH_LONG).show();
-        if(sharedPrefs.getUsername().isEmpty()){
+        if(sharedPrefs.getUsername().equals("")){
             Intent i = new Intent(MainActivity.this,CreateAccount.class);
             startActivity(i);
         }
-        Toast.makeText(getApplication(),sharedPrefs.getUsername(),Toast.LENGTH_LONG).show();
         sharedPrefs.getGCMID();
 
         //Begin
