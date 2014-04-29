@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="GradleSettings">
-    <option name="gradleHome" value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.6-bin/72srdo3a5eb3bic159kar72vok/gradle-1.6" />
-    <option name="linkedProjectPath" value="$USER_HOME$/IdeaProjects/nades-0.2/client/Nades/Nades/build.gradle" />
-    <option name="preferLocalInstallationToWrapper" value="true" />
-  </component>
-</project>
-
